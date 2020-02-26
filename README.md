@@ -1,2 +1,2 @@
 # example-metadata
-A simple field plug-in to demonstrate using field metadata.
+**Note: this plug-in is in active development and is not yet ready to test*
