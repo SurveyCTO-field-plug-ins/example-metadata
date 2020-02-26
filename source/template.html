@@ -1,0 +1,27 @@
+<div class="regular-field-container">
+    <div class="label default-question-text-size">{{{LABEL}}}</div>
+
+    <div class="hint default-hint-text-size">{{{HINT}}}</div>
+    
+    <input 
+        type="text" 
+        value="{{CURRENT_ANSWER}}" 
+        id="text-field" 
+        class="response default-answer-text-size" 
+        placeholder="Your answer here..." 
+    />
+</div>
+
+<div class="metadata-container">
+    <p>This section is for the field metadata. Responses entered here will be stored at this field until the form is finalized.</p>
+    <input 
+        type="text"
+        value="{{METADATA}}"
+        id="metadata-field"
+        class="response default-answer-text-size"
+        placeholder="Enter metadata here..."
+    />
+    <button id="meta-btn-save">Save metadata</button>
+    <button id="meta-btn-clear">Clear metadata</button>
+    <button id="meta-btn-record-time">Record time</button>
+</div>
