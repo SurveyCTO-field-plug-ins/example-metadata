@@ -1,5 +1,7 @@
 # example-metadata
 
+![A text field using this plug-in](extras/preview.jpg)
+
 ## Description
 
 This field plug-in is meant to demonstrate how to use field metadata. Use it on a text field to add a second input box below the regular text input. The second box will store metadata, which is stored separately from the field's response. Metadata will not be included when the form is finalized and submitted, so it will not appear in the final form dataset.
