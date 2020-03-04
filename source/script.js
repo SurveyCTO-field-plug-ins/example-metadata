@@ -7,7 +7,7 @@ var recordTimeBtn = document.getElementById('meta-btn-record-time'); // the 'rec
 
 // Define the 'save metadata' function
 function saveMetadata() {
-    fieldProperties.METADATA = metaInput.value;
+    setMetaData(metaInput.value); // set field metadata
 }
 // Call the saveMetadata function when the button is clicked
 saveMetaBtn.onclick = saveMetadata;
@@ -15,7 +15,7 @@ saveMetaBtn.onclick = saveMetadata;
 // Define the 'clear metadata' function
 function clearMetadata() {
     metaInput.value = null; // clear the input box
-    fieldProperties.METADATA = null; // clear the actual field metadata
+    setMetaData(null); // clear the actual field metadata
 }
 // Call the clearMetadata function when the button is clicked
 clearMetaBtn.onclick = clearMetadata;
@@ -35,7 +35,7 @@ recordTimeBtn.onclick = recordTime;
 
 // Define what happens when the user attempts to clear the response
 function clearAnswer() {
-    input.innerHTML = '';
+    input.value = '';
 } 
 
 // If the field is not marked readonly, then focus on the field and show the on-screen keyboard (for mobile devices)
