@@ -4,9 +4,13 @@
 
 ## Description
 
-This field plug-in is meant to demonstrate how to use field metadata. It adds a second input box below the regular text input, which will store metadata. This value is stored separately from the field's response. Learn more about field metadata in the [API reference documentation](https://github.com/surveycto/field-plug-in-resources/blob/master/docs/api-reference.md).
+This field plug-in is meant to demonstrate how to use field metadata. It adds a second input box below the regular text input, which will store metadata. This value is stored separately from the field's response. From the [developer documentation](https://github.com/surveycto/field-plug-in-resources/blob/master/docs/developer-docs-home.md#how-can-a-field-plug-in-interact-with-a-form) for field plug-ins:
 
-*Note: this is not intended to be used to collect actual data. It is intended for demonstration/testing purposes.*
+> Your field plug-in can store metadata alongside response data. This metadata can be accessed by other fields in the form using the `plug-in-metadata(field)` function. This can be used to pass information from your field plug-in to other parts of the form.
+
+Try using the example form to see how field metadata can be used. Learn more about field metadata in the [API reference documentation](https://github.com/surveycto/field-plug-in-resources/blob/master/docs/api-reference.md).
+
+*Note: this field plug-in is not intended to be used to collect actual data. It is intended for demonstration/testing purposes.*
 
 [![Download now](extras/download-button.png)](https://github.com/surveycto/feature-demo-metadata/raw/master/feature-demo-metadata.fieldplugin.zip)
 
